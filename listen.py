@@ -1,3 +1,8 @@
+print('')
+print('Freak Chat [Version 0.19.78483]')
+print('Coded by We-Are-The-Console-Freaks')
+print('')
+
 import requests
 from bs4 import BeautifulSoup as scrapper
 import time
@@ -11,7 +16,7 @@ class bcolors:
     FAIL = '\033[91m'
     ENDC = '\033[0m'
 
-url = 'https://chatroll.com/freakchat'
+url = 'https://chatroll.com/freakchat-'
 
 def base_soup():
     response = requests.get(url)
